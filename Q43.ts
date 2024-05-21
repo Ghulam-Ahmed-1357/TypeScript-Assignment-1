@@ -1,6 +1,6 @@
-let magicians:string[] = ["King magician", "Rashid", "Alvi", "Hassam", "Atiq"];
+let magicians: string[] = ["King magician", "Rashid", "Alvi", "Hassam", "Atiq"];
 let make_great = (magician: string[]): string[] => {
-        let new_magicians: string[] = [];
+  let new_magicians: string[] = [];
   for (let j = 0; j < magician.length; j++) {
     new_magicians[j] = "The great " + magician[j];
   }
@@ -12,5 +12,7 @@ let show_magicians = (magician: string[]) => {
   }
 };
 let changed_array = make_great(magicians);
-show_magicians(magicians)
+console.log("Original Array");
+show_magicians(magicians);
+console.log("\nUpdated Array");
 show_magicians(changed_array);
