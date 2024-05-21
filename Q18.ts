@@ -5,7 +5,6 @@ let locationsOfPlacesToVisit: string[] = [
   "Kashmir",
   "Gilgit Baltistan",
 ];
-
 // original array
 console.log("Original Order:", locationsOfPlacesToVisit);
 
